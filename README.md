@@ -30,7 +30,7 @@ A high-level overview of the architecture of the scraper is shown in the next fi
 ![Scraper flow chart](scraper/diagram.png)
 
 
-<span style="font-size: 8px;"><sup>1</sup> Pages are flagged if at least one of the predefined keywords is found in the URL address of the page or the text of the hyperlink leading to the page. Keywords were chosen by inspecting a sample of websites and looking at what were the most common words used to introduce sustainability content. </span>
+<p><sup>1</sup> Pages are flagged if at least one of the predefined keywords is found in the URL address of the page or the text of the hyperlink leading to the page. Keywords were chosen by inspecting a sample of websites and looking at what were the most common words used to introduce sustainability content. </p>
 
 
 ## How do I use it?
