@@ -27,7 +27,7 @@ The Item then proceeds to the **MongoConnector**, which checks its validity befo
 A high-level overview of the architecture of the scraper is shown in the next figure.
 
 
-![alt tag](scraper/diagram.png)
+![Scraper flow chart](scraper/diagram.png)
 
 
 <span style="font-size: 8px;"><sup>1</sup> Pages are flagged if at least one of the predefined keywords is found in the URL address of the page or the text of the hyperlink leading to the page. Keywords were chosen by inspecting a sample of websites and looking at what were the most common words used to introduce sustainability content. </span>
@@ -60,12 +60,12 @@ Repository structure:
 
     .
     ├── docs
-    │   ├── diagram.png
     │   └── index.html
     ├── documentation
     │   ├── SustainabilityRepoting-NTTS-2017.pptx
     │   └── SustainabilityRepoting.pdf
     └── scraper
+        ├── diagram.png
         ├── scrapy.cfg
         ├── seeds.txt
         └── reports
