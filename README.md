@@ -75,7 +75,7 @@ Repository structure:
             └── spiders
                └── web.py
 
-* ``docs`` contains the [html page](https://onsbigdata.github.io/Measuring-Sustainability-Reporting/index.html) included in the scraper's User Agent where to find out more information about the project.
+* ``docs`` contains the [HTML page](https://onsbigdata.github.io/Measuring-Sustainability-Reporting/index.html) included in the scraper's User Agent where to find out more information about the project.
 * ``documentation`` contains a 10-pages report on the pilot study conducted and the slides used for the talk given at the [Eurostat NTTS 2017 Conference](https://ec.europa.eu/eurostat/cros/content/ntts-2017_en).
 * ``scraper`` is a project based on ``Scrapy`` which contains the web scraping program to search and extract sustainability related web pages from the companies listed in ``seeds.txt``.
 
